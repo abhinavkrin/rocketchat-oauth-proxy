@@ -1,0 +1,13 @@
+{
+  "name": "oauth-proxy",
+  "version": "1.0.0",
+  "description": "Local OAuth proxy server for Rocket.Chat development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
